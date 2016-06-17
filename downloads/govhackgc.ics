@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Australia/Brisbane
+TZURL:http://tzurl.org/zoneinfo-outlook/Australia/Brisbane
+X-LIC-LOCATION:Australia/Brisbane
+BEGIN:STANDARD
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1000
+TZNAME:AEST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20160617T104934Z
+UID:20160617T104934Z-891575958@marudot.com
+DTSTART;TZID="Australia/Brisbane":20160729T170000
+DTEND;TZID="Australia/Brisbane":20160731T210000
+SUMMARY:GovHack Gold Coast
+URL:govhackgc.co
+DESCRIPTION:Hack something amazing\, no matter who you are.\nGovHack is an annual open data competition. Teams work together over 46 Hours to explore\, mash up\, ideate and communicate concepts using open Government data.
+LOCATION:Red Zone\, G40\, Griffith University Gold Coast Campus\, Parklands Drive\, Southport QLD 4222
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GovHack Gold Coast
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
